@@ -11,5 +11,6 @@ package it.galvy.mailmanager;
  */
 public class NewClass {
     int aaa = 0;
+    int ddldl = 0;
     
 }
