@@ -10,5 +10,6 @@ package it.galvy.mailmanager;
  * @author galvanic
  */
 public class NewClass {
+    int aaa = 0;
     
 }
