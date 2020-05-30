@@ -43,7 +43,7 @@ import org.slf4j.LoggerFactory;
  */
 public class main {
 
-    private static final Logger LOG = LoggerFactory.getLogger(main.class);
+    private static final Logger Log = LoggerFactory.getLogger(main.class);
 
     /**
      * @param args the command line arguments
@@ -51,22 +51,22 @@ public class main {
     public static void main(String[] args) {
         // TODO code application logic here
 
-        LOG.debug("Hello from Logback !!!!!");
+        Log.debug("Hello from Logback !!!!!");
 
         String message = "This is a String";
         Integer zero = 0;
 
         try {
-            LOG.debug("Logging message: {}", message);
-            LOG.debug("Going to divide {} by {}", 42, zero);
+            Log.debug("Logging message: {}", message);
+            Log.info("Going to divide {} by {}", 42, zero);
             int result = 42 / zero;
         } catch (Exception e) {
-            LOG.error("Error dividing {} by {} ", 42, zero, e);
+            Log.error("Error dividing {} by {} ", 42, zero, e);
         }
         if (isThere("logback.xml")){
-            LOG.info("ESISTE");
+            Log.info("ESISTE");
         }else{
-            LOG.info("NON ESISTE");
+            Log.info("NON ESISTE");
         }
 
     }
