@@ -28,4 +28,6 @@
 *         Galvani Cristian galvani.cristian@gmail.com      
 ****************************************************************************
 *
+*  This development has been done on top of other components, which are
+*  licensed under their own license : org.mybatis, com.jgoodies, javax.mail
 */
